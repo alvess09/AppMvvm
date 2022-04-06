@@ -12,6 +12,7 @@ interface RetrofitService {
 
     companion object {
         // by lazy é para inicializar um objeto somente uma vez ou quando ele for utilizado.
+
         private val retrofitService : RetrofitService by lazy {
 
             val retrofit = Retrofit.Builder()
@@ -26,4 +27,6 @@ interface RetrofitService {
         }
     }
 }
-BASE URL: https://d3c0cr0sze1oo6.cloudfront.net/lista-lives.json
+
+
+//BASE URL: https://d3c0cr0sze1oo6.cloudfront.net/lista-lives.json
